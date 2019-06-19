@@ -1,0 +1,69 @@
+body {
+ background: url("assets/images/vintage_speckles.png");
+ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ color: #777777;
+ width: 960px;
+ margin: 0 auto;
+
+}
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+.logo {
+    background: #4aaaa5;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    float: left;
+}
+nav li {
+    display: inline-block;
+    margin-top: 40px;
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
+} 
+nav li:last-child {
+    border-right: none;
+    padding-right: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: #777777;
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.heading {
+    color:  #4aaaa5;
+}
+section {
+    height: 300px;
+    border: 2px solid #cccccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+img {
+    width: 25%;
+    float: left;
+}
+footer{
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 40px;
+    color: white;
+    clear: both;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
