@@ -5,8 +5,6 @@ body {
  font-size: 16px;
 }
 
-
-
 /* Header */
 
 header {
@@ -34,12 +32,17 @@ nav li {
     margin-top: 40px;
     border-right: 1px solid #cccccc;
     padding-right: 10px;
+    padding-left: 10px;
     font-size: 18px;
+    text-align: center;
 } 
 
 nav li:last-child {
     border-right: none;
     padding-right: 10px;
+}
+nav li :hover{
+    color: #4aaaa5;
 }
 
 nav {
@@ -75,9 +78,7 @@ h1 {
 
 section {
     border: 2px solid #dddddd;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px 20px 60px 20px;
     clear: both;
     width: 920px;
     margin: 0 auto;
@@ -97,6 +98,7 @@ img {
 
 hr{
     overflow: visible;
+    color: #ccc;
 }
 
 /* Footer */
@@ -111,7 +113,9 @@ footer{
 }
 
 small {
-    text-align: center;
+    position: relative;
+    left: 50%;
+    bottom: 20px;
     font-size: smaller;
 }
 
