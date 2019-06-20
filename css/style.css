@@ -8,13 +8,14 @@ body {
 
 header {
     background: #ffffff;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #cccccc;
+    
 }
 
 .nav-wrapper {
     width: 960px;
     margin: 0 auto;
+    border-bottom: 2px solid #cccccc;
+    height: 95px;
 }
 
 .logo {
@@ -48,6 +49,14 @@ nav a{
 
 /* Main content */
 
+main {
+    background: #ccc;
+    position: relative;
+    padding-bottom: 30vw;
+    overflow: auto;
+    padding-top: 30px;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -64,6 +73,7 @@ section {
     clear: both;
     width: 920px;
     margin: 0 auto;
+    background: #ffffff;
 }
 
 img {
@@ -86,7 +96,6 @@ footer{
     padding-top: 40px;
     color: white;
     position: absolute;
-    bottom: -200px;
     width: 100%;
 }
 
@@ -109,4 +118,34 @@ button{
     width: 100px;
 }
 
+/* Portfolio */
+.project{
+    width: 350px;
+    height: 250px;
+}
 
+.project-title{
+background:  #4aaaa5;
+width: 350px;
+height: 90px;
+margin-left: 20px;
+margin-top: 20px;
+text-align: center;
+position: relative;
+z-index:2;
+top: 160px;
+right: 20px;
+
+}
+.project-img {
+    width: 100%;
+    position: relative;
+    top: -90px;
+    z-index:1;
+}
+.project p{
+    color: #fff;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 10%;
+}
