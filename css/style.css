@@ -98,7 +98,7 @@ img {
 
 hr{
     overflow: visible;
-    color: #ccc;
+        color: #ccc;
 }
 
 /* Footer */
@@ -148,16 +148,16 @@ button{
 }
 
 .project-title{
-background:  #4aaaa5;
-width: 350px;
-height: 90px;
-margin-left: 20px;
-margin-top: 20px;
-text-align: center;
-position: relative;
-z-index:2;
-top: 160px;
-right: 20px;
+    background:  #4aaaa5;
+    width: 350px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    z-index:2;
+    top: 160px;
+    right: 20px;
 }
 
 .project-img {
