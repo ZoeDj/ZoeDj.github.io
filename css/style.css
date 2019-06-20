@@ -1,8 +1,11 @@
 body {
- background: url("../assets/images/rockywall.png");
+ background: url("../assets/images/seigaiha.png");
  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  color: #777777;
+ font-size: 16px;
 }
+
+
 
 /* Header */
 
@@ -21,8 +24,9 @@ header {
     background: #4aaaa5;
     color: white;
     width: 20%;
-    padding: 20px;
+    padding: 28px;
     float: left;
+    font-size: 40px;
 }
 
 nav li {
@@ -30,6 +34,7 @@ nav li {
     margin-top: 40px;
     border-right: 1px solid #cccccc;
     padding-right: 10px;
+    font-size: 18px;
 } 
 
 nav li:last-child {
@@ -55,8 +60,13 @@ main {
     padding-top: 30px;
 }
 
+p {
+    line-height: 1.6;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
 }
 
 .heading {
@@ -85,6 +95,9 @@ img {
     clear: both;
 }
 
+hr{
+    overflow: visible;
+}
 
 /* Footer */
 
@@ -95,6 +108,11 @@ footer{
     color: white;
     position: absolute;
     width: 100%;
+}
+
+small {
+    text-align: center;
+    font-size: smaller;
 }
 
 /* Contact page - Form */
@@ -152,6 +170,4 @@ right: 20px;
     margin-top: 10%;
 }
 
-hr{
-    overflow: visible;
-}
+
