@@ -216,16 +216,16 @@ h3{
     background-image: url("../images/trivia1.jpg");
 }
 
-.portfolio-item.large{
+.portfolio-item.small4 {
     grid-row: span 3;
     grid-column: span 2;
-    background-image: url("../images/bamazon.jpg");
+    background-image: url("../images/bamazon1.jpg");
 }
-.portfolio-item.large1{
+/* .portfolio-item.large1 {
     grid-row: span 3;
     grid-column: span 3;
     background: #eee;
-}
+} */
 
 .portfolio-item:hover {
 	background-color: #295f5c;
