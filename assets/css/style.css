@@ -219,7 +219,7 @@ h3{
 .portfolio-item.small4 {
     grid-row: span 3;
     grid-column: span 2;
-    background-image: url("../images/bamazon1.jpg");
+    background-image: url("../images/bamazon.jpg");
 }
 /* .portfolio-item.large1 {
     grid-row: span 3;
