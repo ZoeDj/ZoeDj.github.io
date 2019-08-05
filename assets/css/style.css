@@ -46,7 +46,7 @@ nav li {
     border-right: 1px solid #cccccc;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
 } 
 
@@ -267,13 +267,11 @@ a {
 
 /* ---------------------Contact page --------------------- */
 
-
 form {
     color:  #4aaaa5;
     max-width: 700px; 
     margin: 0 auto;
 }
-
 
 textarea {
     border: 0.5px solid #4aaaa5;
@@ -363,11 +361,25 @@ footer p{
 
 @media screen and (max-width: 600px) {
 
+    
+    .skills{
+        font-size: 1.8em
+    }
+
+    header{
+        margin-top: -70px;
+    } 
+
     .skill{
         padding: 10% 20%;
         text-align: center;
         margin: 0 auto;
     }
+
+    #skill{
+        margin-top: 40px;
+    }
+
     .highlight {
         line-height: 35px;
      }
@@ -376,6 +388,7 @@ footer p{
         display: flex;
         flex-direction: column;	 
     }
+
     .portfolio-item {
         margin-top: 60px;
         height: 300px;
@@ -397,6 +410,10 @@ footer p{
 
     section{
         margin-top: 90px;
+    }
+
+    menu{
+        top: -20px;
     }
 
     .bio p{
@@ -459,7 +476,7 @@ footer p{
     section {
         padding: 40px 10px 60px 10px;
         clear: both;
-        margin: 90px 120px 0 120px;
+        margin: 100px 120px 0 120px;
     }
 
     img {
@@ -502,6 +519,9 @@ footer p{
 
 @media only screen and (min-width: 960px) {
 
+    #about{
+        margin-top: 150px;
+    }
 
     img{
         margin: 50px;
@@ -544,6 +564,6 @@ footer p{
 @media only screen and (min-width: 1900px) {
 
 #skill{
-    padding-top: 0; 
+    padding-top: 20px; 
 }
 }
