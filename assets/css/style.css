@@ -532,7 +532,8 @@ footer p{
         background-position: center; 
     }
 }
-@media only screen and (min-width: 1200px) {
+/*-------------------------------Wide Screen Desktop-------------------------------*/
+@media only screen and (min-width: 1900px) {
 
 #skill{
     padding-top: 0; 
