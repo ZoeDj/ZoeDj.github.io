@@ -38,7 +38,7 @@ nav li {
     border-right: 1px solid #cccccc;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
 } 
 
@@ -70,7 +70,7 @@ main{
 .bio p {
     line-height: 1.6;
     text-align: left;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -126,8 +126,8 @@ hr {
     -webkit-text-fill-color: transparent;
     font-size: 48px;
 }
-.skill{
-    padding-top: 10%;
+#skill{
+    padding-top: 10%; 
     text-align: center;
     margin: 0 auto;
 }
@@ -137,6 +137,7 @@ h3{
     padding-bottom: 15px;
     margin-bottom: 25px;
 }
+
 .highlight {
     background-color: #4aaaa5;
     padding: 3px;
@@ -213,6 +214,17 @@ h3{
     grid-row: span 2;
     grid-column: span 2;
     background-image: url("../images/trivia1.jpg");
+}
+
+.portfolio-item.large{
+    grid-row: span 3;
+    grid-column: span 2;
+    background-image: url("../images/bamazon.jpg");
+}
+.portfolio-item.large1{
+    grid-row: span 3;
+    grid-column: span 3;
+    background: #eee;
 }
 
 .portfolio-item:hover {
@@ -382,6 +394,7 @@ footer p{
     .bio p{
         margin-top: 80px;
         padding-left: 20px;
+        width: 70%;
     }
 
     img{
@@ -410,6 +423,7 @@ footer p{
         padding-right: 10px;
         padding-left: 10px;
         text-align: center;
+        font-size: 1em;
     } 
 
     nav li:last-child {
@@ -517,4 +531,10 @@ footer p{
         background-blend-mode: multiply; 
         background-position: center; 
     }
+}
+@media only screen and (min-width: 1200px) {
+
+#skill{
+    padding-top: 0; 
+}
 }
