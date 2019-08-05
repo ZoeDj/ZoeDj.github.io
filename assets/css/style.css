@@ -20,6 +20,14 @@ header.clearfix {
     background:  #fff;
 }
 
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;   
+}
+
 .logo {
     background: #4aaaa5;
     color: white;

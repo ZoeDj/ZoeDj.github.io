@@ -100,5 +100,18 @@
             </ul>
             <p>Copyright &copy; 2019 Zoe Djukic. All rights reserved.</p> 
         </footer>
+
+        <script>
+            // When the user scrolls down 20px from the top of the document, slide down the navbar
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("menu").style.top = "0";
+              } else {
+                document.getElementById("menu").style.top = "-50px";
+              }
+            }
+            </script>
     </body>
 </html>
