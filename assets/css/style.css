@@ -229,11 +229,12 @@ h3{
     grid-column: span 2;
     background-image: url("../images/bamazon.jpg");
 }
-/* .portfolio-item.large1 {
+.portfolio-item.large1 {
     grid-row: span 3;
     grid-column: span 3;
     background: #eee;
-} */
+    background-image: url("../images/friend-finder.jpg");
+} 
 
 .portfolio-item:hover {
 	background-color: #295f5c;
