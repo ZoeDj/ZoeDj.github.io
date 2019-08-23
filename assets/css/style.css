@@ -236,6 +236,13 @@ h3{
     background-image: url("../images/friend-finder.jpg");
 } 
 
+.portfolio-item.large2 {
+    grid-row: span 4;
+    grid-column: span 2;
+    background: #eee;
+    background-image: url("../images/study-mob-img1.jpg");
+} 
+
 .portfolio-item:hover {
 	background-color: #295f5c;
 }
