@@ -245,7 +245,7 @@ h3 {
 }
 
 .portfolio-item.large2 {
-  grid-row: span 2;
+  grid-row: span 1;
   grid-column: span 2;
   background: #eee;
   background-image: url("../images/study-mob-img1.jpg");
@@ -255,6 +255,14 @@ h3 {
   grid-column: span 2;
   background: #eee;
   background-image: url("../images/burger.jpg");
+}
+
+.portfolio-item.medium6 {
+  grid-row: span 2;
+  grid-column: span 1;
+  background: #eee;
+  background-image: url("../images/clicky-game.jpg");
+  background-position: top;
 }
 
 .portfolio-item:hover {
