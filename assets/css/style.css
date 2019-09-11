@@ -249,20 +249,30 @@ h3 {
   grid-column: span 2;
   background: #eee;
   background-image: url("../images/study-mob-img1.jpg");
+  position: right;
 }
 .portfolio-item.medium5 {
-  grid-row: span 2;
-  grid-column: span 2;
+  grid-row: span 1;
+  grid-column: span 3;
   background: #eee;
-  background-image: url("../images/burger.jpg");
+  background-image: url("../images/burger1.jpg");
+  background-position: center;
 }
 
 .portfolio-item.medium6 {
-  grid-row: span 2;
-  grid-column: span 1;
+  grid-row: span 1;
+  grid-column: span 2;
   background: #eee;
   background-image: url("../images/clicky-game.jpg");
   background-position: top;
+}
+
+.portfolio-item.large3 {
+  grid-row: span 1;
+  grid-column: span 3;
+  background: #eee;
+  background-image: url("../images/community.jpg");
+  background-position: left;
 }
 
 .portfolio-item:hover {
