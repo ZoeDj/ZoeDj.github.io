@@ -191,6 +191,7 @@ h3 {
   margin-top: 20px;
   background-blend-mode: multiply;
   background-position: center;
+  font-size: 18px;
 }
 
 .portfolio-item:hover {
