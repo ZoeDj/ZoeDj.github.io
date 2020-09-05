@@ -162,6 +162,16 @@ h3 {
 
 /* --------------------- Portfolio --------------------- */
 
+.portfolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 160px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px 20px;
+  color: transparent;
+  margin: 50px 1em;
+}
+
 .portfolio-item {
   border-radius: 15px;
   -webkit-box-shadow: -2px 7px 40px 2px rgba(0, 0, 0, 0.49);
@@ -189,6 +199,36 @@ h3 {
   box-shadow: -2px 19px 24px 0px rgba(0, 0, 0, 0.3);
   transform: translate(0px, -4px);
 }
+.portfolio-item.second {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../images/gone-balkan.jpg");
+}
+
+.portfolio-item.first {
+  grid-row: span 2;
+  grid-column: span 2;
+  position: bottom;
+  background-image: url("../images/lunageek.jpg");
+}
+
+.portfolio-item.third {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../images/study-mob-img1.jpg");
+}
+
+.portfolio-item.fifth {
+  grid-row: span 4;
+  grid-column: span 1;
+  background-image: url("../images/clicky-game1.jpg");
+}
+
+.portfolio-item.fourth {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../images/community.jpg");
+}
 
 .portfolio-item.small {
   grid-row: span 2;
@@ -199,81 +239,81 @@ h3 {
 .portfolio-item.small1 {
   grid-row: span 2;
   grid-column: span 2;
-  background-image: url("../images/crystals.jpg");
-}
-
-.portfolio-item.medium {
-  grid-row: span 3;
-  grid-column: span 2;
   background-image: url("../images/train3.jpg");
 }
 
+.portfolio-item.medium {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../images/crystals.jpg");
+}
+
 .portfolio-item.tall {
-  grid-row: span 5;
+  grid-row: span 4;
   grid-column: span 1;
-  background-image: url("../images/psychic.jpg");
+  background-image: url("../images/burger1.jpg");
 }
 
 .portfolio-item.medium1 {
-  grid-row: span 3;
-  grid-column: span 2;
-  background-image: url("../images/bardify1.jpg");
-}
-
-.portfolio-item.wide {
   grid-row: span 2;
-  grid-column: span 3;
-  background-image: url("../images/giphy1.jpg");
-}
-
-.portfolio-item.small3 {
-  grid-row: span 2;
-  grid-column: span 2;
-  background-image: url("../images/trivia1.jpg");
-}
-
-.portfolio-item.small4 {
-  grid-row: span 3;
   grid-column: span 2;
   background-image: url("../images/bamazon.jpg");
 }
-.portfolio-item.large1 {
+
+/* .portfolio-item.wide {
+  grid-row: span 2;
+  grid-column: span 3;
+  background-image: url("../images/giphy1.jpg");
+} */
+
+/* .portfolio-item.small3 {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../images/trivia1.jpg");
+} */
+
+.portfolio-item.small4 {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("../images/bamazon.jpg");
+}
+/* .portfolio-item.large1 {
   grid-row: span 3;
   grid-column: span 3;
   background: #eee;
   background-image: url("../images/friend-finder.jpg");
-}
+} */
 
-.portfolio-item.large2 {
+/* .portfolio-item.large2 {
   grid-row: span 1;
   grid-column: span 2;
   background: #eee;
   background-image: url("../images/study-mob-img1.jpg");
   position: right;
-}
-.portfolio-item.medium5 {
+} */
+/* .portfolio-item.medium5 {
   grid-row: span 1;
   grid-column: span 3;
   background: #eee;
   background-image: url("../images/burger1.jpg");
   background-position: center;
-}
+} */
 
-.portfolio-item.medium6 {
+/* .portfolio-item.medium6 {
   grid-row: span 1;
   grid-column: span 2;
   background: #eee;
   background-image: url("../images/clicky-game.jpg");
   background-position: top;
-}
+} */
 
-.portfolio-item.large3 {
+/* .portfolio-item.large3 {
   grid-row: span 1;
   grid-column: span 3;
   background: #eee;
   background-image: url("../images/community.jpg");
   background-position: left;
-}
+} */
 
 .portfolio-item:hover {
   background-color: #295f5c;
@@ -408,30 +448,20 @@ footer p {
   .highlight {
     line-height: 35px;
   }
-
   .portfolio {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
   }
-
   .portfolio-item {
-    margin-top: 60px;
-    height: 300px;
-  }
-
-  .portfolio-item p:hover {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-
-  .flex-items {
-    flex: 1 100%;
+    width: 100%;
+    height: 200px;
   }
 }
 
 /*---------------------------------- Tablet ----------------------------------*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) {
   section {
     margin-top: 90px;
   }
@@ -488,6 +518,16 @@ footer p {
     padding: 5%;
   }
 
+  .portfolio {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+  }
+  .portfolio-item {
+    width: 100%;
+    height: 300px;
+  }
+
   /* ------------------------ Main content ---------------------  */
 
   main {
@@ -541,7 +581,7 @@ footer p {
 
 /*---------------------------------- Desktop ----------------------------------*/
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1025px) {
   section {
     padding: 40px 20px 60px 20px;
   }
@@ -569,14 +609,13 @@ footer p {
   .portfolio {
     display: grid;
     height: 100%;
-    grid-template-rows: repeat(7, minmax(100px, 1fr));
+    grid-template-rows: 200px;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 40px;
+    grid-gap: 30px;
     color: transparent;
-    margin: 50px 1em;
   }
+
   .portfolio-item {
-    display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;

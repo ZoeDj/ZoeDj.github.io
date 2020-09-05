@@ -1,102 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zoe Djukic, Web Developer</title>
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Work+Sans:300" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoe Djukic, Web Developer</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300|Work+Sans:300"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+  </head>
+  <body>
+    <header class="clearfix">
+      <div class="nav-wrapper clearfix">
+        <h2 class="logo">Zoe Djukic</h2>
+        <nav id="menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="clearfix" id="about">
+        <div class="title"><h1 class="heading">About Me</h1></div>
+        <hr />
+        <img
+          class="bio"
+          src="assets/images/zoe-djukic1.jpg"
+          alt="Zoe Djukic photo"
+        />
+        <div class="bio">
+          <p>
+            Hello, I'm a Charlotte-based full-stack web developer, who enjoys
+            creating innovative web pages and apps.<br /><br />
+            My focus is writing clean, well-formatted code by hand to make sure
+            that the content is easy to read, easy to collaborate, troubleshoot
+            and accessible.<br /><br />
+            I look forward to using my front-end and back-end skills to build
+            next useful, creative solutions for real-life challenges.
+          </p>
+        </div>
+        <div id="skill">
+          <div class="skillset">
+            <h3>
+              <span class="highlight"> Front-end & Back-end Technologies </span>
+            </h3>
+          </div>
+          <div class="skills">
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-bootstrap-plain"></i>
+            <i class="devicon-jquery-plain"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-photoshop-line"></i>
+            <i class="devicon-illustrator-line"></i>
+          </div>
+          <br />
+          <div class="skills">
+            <i class="devicon-github-plain"></i>
+            <i class="devicon-nodejs-plain"></i>
+            <i class="devicon-mysql-plain"></i>
+            <i class="devicon-mongodb-plain"></i>
+            <i class="devicon-express-original"></i>
+            <i class="devicon-react-original"></i>
+            <i class="devicon-heroku-plain"></i>
+          </div>
+        </div>
+      </section>
+      <br />
+      <section class="clearfix" id="portfolio">
+        <div class="title"><h1 class="heading">Portfolio</h1></div>
+        <hr />
+        <br />
+        <div class="portfolio websites">
+          <div class="portfolio-item first">
+            <a href="https://luna-geek.netlify.app" target="_blank"
+              ><p>
+                LunaGeek progressive web app is built with React, validated with
+                Lighthouse, and deployed to Netlify. Anyone can installed the
+                app locally with Chrome and Safari for iOS. PWAs work offline.
+                It serves as a coming soon page for the React/Redux website
+                built with Node.js, Express.js, MongoDB, Mongoose,
+                Authentication, and PayPal payment integration.
+                <br /><br />Technology Used for PWA: React.js, JavaScript
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item fifth">
+            <a href="https://zoedj.github.io/React-Game/" target="_blank"
+              ><p>
+                Clicky Memory Game is React application that renders different
+                images to the screen and each image listens for click events.
+                The app keeps track of the user’s score and increments it when
+                user click an image for the first time. The user’s score resets
+                to 0 if they click the same image more than once, and game
+                starts over. <br /><br />Technology Used: React.js
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item second">
+            <a href="https://gone-balkan.netlify.app/" target="_blank"
+              ><p>
+                Under Construction...This is a landing page for the GoneBalkan
+                website. It features light/dark mode and flipping images.
+                <br /><br />Technologies Used: Sass, JavaScript
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item third">
+            <a href="https://studymob.herokuapp.com" target="_blank"
+              ><p>
+                Study Mob app allows users to search for Charlotte's best study
+                spots by selecting a part of the city or typing in the zip-code.
+                User can create a new recommendation or write a review.<br /><br />Technologies
+                Used: Node, Express Web Server, MySQL Database, Sequelize,
+                Heroku, MD Bootstrap, jQuery
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item fourth">
+            <a
+              href="https://boiling-tundra-76888.herokuapp.com/"
+              target="_blank"
+              ><p>
+                The goal of Community Connect app is to connect, organize and
+                inform members of the micro-communities through event engagement
+                and community board posts.<br /><br />If you want to visit the
+                site you can use:<br />email: guest@guest.com<br />password:
+                guest<br /><br />Technologies Used: ReactJS, Node Express
+                Server, Mongo Database, Mongoos & MDBReact
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item small1">
+            <a href="https://zoedj.github.io/Train-Scheduler/" target="_blank"
+              ><p>
+                Train Scheduler app incorporates Firebase to host arrival and
+                departure data, and manipulates it with Moment.js. The app
+                provides up-to-date information about various trains, namely
+                their arrival times and how many minutes remain until they
+                arrive at the station.<br /><br />Technologies Used: HTML, CSS,
+                JavaScript, jQuery, Firebase, Moment.js, Bootstrap
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item tall">
+            <a href="https://fast-woodland-37822.herokuapp.com" target="_blank"
+              ><p>
+                Eat-Da-Burger! is a restaurant app that lets users input the
+                names of burgers they'd like to eat. Whenever a user submits a
+                burger's name, the app will display the burger on the page --
+                waiting to be devoured. When the user clicks "Eat-Da-Burger"
+                button, the burger will move to the right side of the page.
+                <br /><br />Technology Used: MySQL Database, Node, Express,
+                Handlebars & ORM
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item small">
+            <a href="https://recordit.co/89THVvHjnr" target="_blank"
+              ><p>
+                LIRI is a command line node app that takes in parameters and
+                gives back data. LIRI searches Bands in Town for concerts,
+                Spotify for songs, and OMDB for movies.<br /><br />Technologies:
+                Node.js, JavaScript, npm packages: Spotify-API, Axios, Moment &
+                DotEnv
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item medium">
+            <a href="https://zoedj.github.io/Crystal-Collector/" target="_blank"
+              ><p>
+                Crystals Collector is a browser game. The player has to collect
+                the right amount of the different crystals to match the given
+                number and win the game.<br /><br />Technologies Used: HTML,
+                CSS, jQuery
+              </p></a
+            >
+          </div>
+          <div class="portfolio-item medium1">
+            <a href="https://zoedj.github.io/Bamazon" target="_blank"
+              ><p>
+                Bamazon is an Amazon-like command line node app. Bamazon uses
+                MySQL database to disply and manage store inventory and npm
+                inquirer package to comunicate with customers and store manager.
+                If the item is available, the customer will be given the total
+                price and the inventory will be updated on the backend. On the
+                other hand, a manager is able to see all the product, check low
+                inventory items, increse inventory and add new items.<br /><br />Technologies:
+                MySQL, Node.js, JavaScript, npm packages.
+              </p></a
+            >
+          </div>
+        </div>
 
-    </head>
-    <body>
-        <header class="clearfix">
-            <div class="nav-wrapper clearfix">
-            <h2 class="logo">Zoe Djukic</h2>
-            <nav id="menu">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skill">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            </div>
-        </header>
-        <main>
-            <section class="clearfix" id="about">
-                <div class= "title"><h1 class="heading">About Me</h1></div>
-                <hr>
-                <img class="bio" src="assets/images/zoe-djukic1.jpg" alt="Zoe Djukic photo">
-                <div class="bio">
-                    <p>Hello, I'm a Charlotte-based full-stack web developer, 
-                    who enjoys creating innovative web pages and apps.<br><br>
-                    My focus is writing clean, well-formatted code by hand to 
-                    make sure that the content is easy to read, easy to collaborate, troubleshoot and accessible.<br><br>
-                    I look forward to using my front-end and back-end skills to build next useful, creative solutions for real-life challenges.</p>
-                </div>
-                <div id="skill">
-                        <div class="skillset"><h3><span class="highlight">  Front-end & Back-end Technologies  </span></h3></div>
-                <div class= "skills"> 
-                    <i class="devicon-html5-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-bootstrap-plain"></i>
-                    <i class="devicon-jquery-plain"></i>
-                    <i class="devicon-javascript-plain"></i>
-                    <i class="devicon-photoshop-line"></i>
-                    <i class="devicon-illustrator-line"></i>
-                </div><br>
-                <div class= "skills">
-                    <i class="devicon-github-plain"></i>
-                    <i class="devicon-nodejs-plain"></i>
-                    <i class="devicon-mysql-plain"></i>
-                    <i class="devicon-mongodb-plain"></i>
-                    <i class="devicon-express-original"></i>
-                    <i class="devicon-react-original"></i>
-                    <i class="devicon-heroku-plain"></i>
-                </div>
-                </div>
-            </section><br>
-            <section class="clearfix" id="portfolio">
-                <div class= "title"><h1 class="heading">Portfolio</h1></div>
-                <hr>
-                <br>
-                <div class="portfolio websites">
-                    <div class="portfolio-item small1"><a href="https://zoedj.github.io/Crystal-Collector/" target="_blank"><p>Crystals Collector is a browser game. The player has to collect the right amount of the different crystals to match the given number and win the game.<br><br>Technologies Used: HTML, CSS, jQuery</p></a></div>
-                    <div class="portfolio-item tall"><a href="https://zoedj.github.io/Psychic-Game/" target="_blank"><p>Psychic Game randomly picks a letter, and the user has to guess the letter.<br><br>Technologies Used: JavaScript</p></a></div>
-                    <div class="portfolio-item small"><a href="https://recordit.co/89THVvHjnr" target="_blank"><p>LIRI is a command line node app that takes in parameters and gives back data. LIRI searches Bands in Town for concerts, Spotify for songs, and OMDB for movies.<br><br>Technologies: Node.js, JavaScript, npm packages: Spotify-API, Axios, Moment & DotEnv</p></a></div>
-                    <div class="portfolio-item medium"><a href="https://zoedj.github.io/Train-Scheduler/" target="_blank"><p>Train Scheduler app incorporates Firebase to host arrival and departure data, and manipulates it with Moment.js. The app provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at the station.<br><br>Technologies Used: HTML, CSS, JavaScript, jQuery, Firebase, Moment.js, Bootstrap</p></a></div>
-                    <div class="portfolio-item medium1"><a href="https://zoedj.github.io/Bardify" target="_blank"><p>Bardify app processes the lyrics of a user choice through Shakespearean translator and brings them back to the user via text to speech. This was a group project. <br>My role included app branding, jQuery DOM maniplation, writing some of Java Script functions and finding the right lyrics API.<br><br>Technologies Used: JavaScript, jQuery, Firebase, APIs, Bulma</p></a></div>
-                    <div class="portfolio-item wide"><a href="https://zoedj.github.io/Giphy/" target="_blank"><p>Giphy is a dynamic web application that populates with the GIFs of user's choice. The app makes AJAX calls to the Giphy API and utilizes JavaScript and jQuery to manipulate the HTML on the DOM.<br><br>Technologies Used: HTML, CSS, JavaScript, jQuery, AJAX, APIs</p></a></div>
-                    <div class="portfolio-item small3"><a href="https://zoedj.github.io/TriviaGame/" target="_blank"><p>"The Office" trivia is a quiz with multiple choice options. The player has a limited amount of time to finish the quiz. The final page reveals the number of players correct and incorrect answers.<br><br>Technologies: HTML, CSS, JavaScript, jQuery</p></a></div>
-                    <div class="portfolio-item small4"><a href="https://zoedj.github.io/Bamazon/" target="_blank"><p>Bamazon is an Amazon-like command line node app. Bamazon uses MySQL database to disply and manage store inventory and npm inquirer package to comunicate with customers and store manager. If the item is available, the customer will be given the total price and the inventory will be updated on the backend. On the other hand, a manager is able to see all the product, check low inventory items, increse inventory and add new items.<br><br>Technologies: MySQL, Node.js, JavaScript, npm packages.</p></a></div>
-                    <div class="portfolio-item large1"><a href="https://floating-plateau-52184.herokuapp.com/" target="_blank"><p>Friend Finder is a compatibility-based application similar to a dating app. This full-stack site will take in results from the users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.<br><br>Tehnologies: node.js, Express Servers and Bootstrap</p></a></div> 
-                    <div class="portfolio-item large2"><a href="https://studymob.herokuapp.com" target="_blank"><p>Study Mob app allows users to search for Charlotte's best study spots by selecting a part of the city or typing in the zip-code. User can create a new recommendation or write a review.<br><br>Technologies Used: Node, Express Web Server, MySQL Database, Sequelize, Heroku, MD Bootstrap, jQuery </p></a></div>
-                    <div class="portfolio-item medium5"><a href="https://fast-woodland-37822.herokuapp.com" target="_blank"><p>Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the page -- waiting to be devoured. When the user clicks "Eat-Da-Burger" button, the burger will move to the right side of the page. <br><br>Technology Used: MySQL Database, Node, Express, Handlebars & ORM</p></a></div>
-                    <div class="portfolio-item large3"><a href="https://boiling-tundra-76888.herokuapp.com/" target="_blank"><p>The goal of Community Connect app is to connect, organize and inform members of the micro-communities through event engagement and community board posts.<br><br>If you want to visit the site you can use:<br>email: guest@guest.com<br>password: guest<br><br>Technologies Used: ReactJS, Node Express Server, Mongo Database, Mongoos & MDBReact</p></a></div>
-                    <div class="portfolio-item medium6"><a href="https://zoedj.github.io/React-Game/" target="_blank"><p>Clicky Memory Game is React application that renders different images to the screen and each image listens for click events.The app keeps track of the user’s score and increments it when user click an image for the first time. The user’s score resets to 0 if they click the same image more than once, and game starts over. <br><br>Technology Used: React</p></a></div>
-                    <div class="work"><a href="https://www.zoedjukic.com/work/index.html" target="_blank"><button class="btn">Check out some of my design work</button></a></div>
-                </div>
-            </section> <br>
-            <section class="clearfix" id="contact">
-            <div class="title"><h1 class="heading">Contact</h1></div>
-                <hr>
-                <p>If you have any question or if you think I’d be a good fit for your next web project,<br><br>  <a href="mailto:zoedjukic@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i>  drop me a line.</a> 
-                 I’d love to hear from you.<p>
-
-            </section>
-        </main>
-        <footer>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/zoe-djukic/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/ZoeDj" target="_blank"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://codepen.io/ZoeD" target="_blank"><i class="fa fa-codepen"></i></a></li>
-                <li><a href="https://facebook.com/Zoe-Djukic-137300713541817/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-            </ul>
-            <p>Copyright &copy; 2019 Zoe Djukic All rights reserved.</p> 
-        </footer>
-    </body>
+        <div class="work">
+          <a href="https://www.zoedjukic.com/work/index.html" target="_blank"
+            ><button class="btn">Check out some of my design work</button></a
+          >
+        </div>
+      </section>
+      <br />
+      <section class="clearfix" id="contact">
+        <div class="title"><h1 class="heading">Contact</h1></div>
+        <hr />
+        <p>
+          If you have any question or if you think I’d be a good fit for your
+          next web project,<br /><br />
+          <a href="mailto:zoedjukic@gmail.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i> drop me a line.</a
+          >
+          I’d love to hear from you.
+        </p>
+        <p></p>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/zoe-djukic/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/ZoeDj" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://codepen.io/ZoeD" target="_blank"
+            ><i class="fa fa-codepen"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://facebook.com/Zoe-Djukic-137300713541817/"
+            target="_blank"
+            ><i class="fa fa-facebook-square"></i
+          ></a>
+        </li>
+      </ul>
+      <p>Copyright &copy; 2020 Zoe Djukic All rights reserved.</p>
+    </footer>
+  </body>
 </html>
