@@ -165,7 +165,7 @@ h3 {
 .portfolio {
   display: grid;
   height: 100%;
-  grid-template-rows: 160px;
+  grid-template-rows: 300px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px 20px;
   color: transparent;
@@ -456,7 +456,7 @@ footer p {
   }
   .portfolio-item {
     width: 100%;
-    height: 200px;
+    height: 300px;
   }
 }
 
@@ -609,8 +609,8 @@ footer p {
 
   .portfolio {
     display: grid;
-    height: 100%;
-    grid-template-rows: 200px;
+    height: auto;
+    grid-template-rows: 300px;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 30px;
     color: transparent;
