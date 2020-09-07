@@ -615,13 +615,16 @@ footer p {
     grid-gap: 30px;
     color: transparent;
   }
-
+  .portfolio-item.fifth,
+  .portfolio-item.tall {
+    height: auto;
+  }
   .portfolio-item {
     justify-content: center;
     align-items: center;
     background-size: cover;
     position: relative;
-    height: auto;
+    height: 300px;
     margin-top: 20px;
     background-blend-mode: multiply;
     background-position: center;
@@ -631,5 +634,8 @@ footer p {
 @media only screen and (min-width: 1900px) {
   #skill {
     padding-top: 20px;
+  }
+  .portfolio {
+    grid-template-rows: 300px;
   }
 }
