@@ -204,12 +204,14 @@ h3 {
 
 .portfolio-item.first {
   background-image: url("../images/lunageek.jpg");
-  background-size: 80%;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 
 .portfolio-item.second {
   background-image: url("../images/gone-balkan.jpg");
+  background-size: 70%;
+  background-repeat: no-repeat;
 }
 
 .portfolio-item.third {
@@ -233,7 +235,7 @@ h3 {
 
 .portfolio-item.sixth {
   background-image: url("../images/clicky.png");
-  background-size: 80%;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 
@@ -540,15 +542,14 @@ footer p {
     display: grid;
     height: auto;
     grid-template-rows: 300px;
-    /* grid-template-columns: repeat(5, 1fr); */
     grid-gap: 30px;
     color: transparent;
   }
 
-  .portfolio-item.fifth,
+  /* .portfolio-item.fifth,
   .portfolio-item.tall {
     height: auto;
-  }
+  } */
 
   .portfolio-item {
     justify-content: center;
